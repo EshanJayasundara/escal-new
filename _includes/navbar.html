@@ -14,7 +14,8 @@
     </div>
 </div>
 <!-- Remove this when the website is nearly completed -->
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" style="top: 40px;">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar"
+    style="top: 40px;">
     <!-- Remove this when the website is nearly completed   -----------------------------------------   ^^^^^^^^^^^^^^^^^^ -->
     <div class="container">
         <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}"><img id="logo-img" alt="ESCAL Logo"></a>
@@ -27,35 +28,38 @@
             <ul class="navbar-nav ml-auto">
                 {% assign links = site.data.navigation %}
                 {% for link in links %}
-                    {% assign class = nil %}
-                    {% assign tree = link.url | split: '/' %}
-                    {% if page.permalink contains tree[1] or (link.url == '/' and page.permalink == link.url) %}
-                        {% assign class = 'active' %}
-                    {% endif %}
-                    {% if link.sublinks %}
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        {{ link.title }}
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-end animate slideIn"
-                                        aria-labelledby="navbarDropdown">
-                                        {% for sublink in link.sublinks %}
-                                            {% if sublink.title == 'separator' %}
-                                                <div class="dropdown-divider"></div>
-                                            {% else %}
-                                                <a class="dropdown-item {{ class }}" id="devices-link" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    {% else %}
-                        <li class="nav-item {{ class }}"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="nav-link">{{ link.title }}</a></li>
-                    {% endif %}
+                {% assign class = nil %}
+                {% assign tree = link.url | split: '/' %}
+                {% if page.permalink contains tree[1] or (link.url == '/' and page.permalink == link.url) %}
+                {% assign class = 'active' %}
+                {% endif %}
+                {% if link.sublinks %}
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                {{ link.title }}
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end animate slideIn"
+                                aria-labelledby="navbarDropdown">
+                                {% for sublink in link.sublinks %}
+                                {% if sublink.title == 'separator' %}
+                                <div class="dropdown-divider"></div>
+                                {% else %}
+                                <a class="dropdown-item {{ class }}" id="devices-link"
+                                    href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                {% else %}
+                <li class="nav-item {{ class }}"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"
+                        class="nav-link">{{ link.title }}</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>

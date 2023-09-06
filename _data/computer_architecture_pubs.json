@@ -1,0 +1,330 @@
+[
+    {
+        "title": "Offloading specific performance-related kernel functions into an FPGA",
+        "venue": "2021 IEEE 30th International Symposium on Industrial Electronics (ISIE)",
+        "year": "2021",
+        "abstract": "Today's network transactions are usually handled using kernel-based network protocols residing on general-purpose processors (GPPs). Over time, network transmission speeds have developed rapidly without a corresponding increase in processing speeds of host processors. With devices featuring advanced connectivity and Internet functionality, protocol processing has created a heavy workload on the GPP and has become a limiting factor in high performance networking applications such as online High Frequency Trading Systems (HFTS). It encourages designers to increase processor performance or designing application specific processors for handling heavy network workloads. Then there is the choice of hardware/software implementations based on results from hardware acceleration. Offloading the whole network protocol stack implementation into hardware is not very attractive since handling large linked data structures inside the hardware is not as easy as in software. In this paper we claim that relieving the CPU from bulk processing by offloading selected, performance-related kernel code into hardware is a better option for such scenarios. Hence, we design a scalable system for offloading specific performance-related kernel functions into an FPGA. In this paper we discuss the logic behind our new architecture and the results up to now.",
+        "authors": [
+            "Pabudi T Abeyrathne",
+            "S. Devapriya Dewasurendra",
+            "Dhammika Elkaduwa"
+        ],
+        "author_info": [
+            {
+                "name": "Pabudi T Abeyrathne",
+                "profile": "#",
+                "type": "OUTSIDER",
+                "id": "",
+                "email": "",
+                "profile_image": "#",
+                "profile_url": "#"
+            },
+            {
+                "name": "S. Devapriya Dewasurendra",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/shirley-dewasurendra/",
+                "type": "STAFF",
+                "id": "dewasuren",
+                "email": "dewasuren@gmail.com",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/shirley-dewasurendra.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/shirley-dewasurendra/"
+            },
+            {
+                "name": "Dhammika Elkaduwa",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/dhammika-elkaduwe/",
+                "type": "STAFF",
+                "id": "dhammika",
+                "email": "dhammika@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/dhammika-elkaduwe.png",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/dhammika-elkaduwe/"
+            }
+        ],
+        "doi": "https://doi.org/10.1109/ISIE45552.2021.9576256",
+        "is_dept_affiliated": true,
+        "preprint": "https://www.academia.edu/download/75534730/KF_003255_ISIE2021paper.pdf",
+        "pdf": "#",
+        "presentation": "#",
+        "project": "#",
+        "codebase": "#",
+        "researchgroups": [],
+        "funding": "",
+        "tags": [
+            "Performance evaluation",
+            "Protocols",
+            "Profitability",
+            "Linux",
+            "Computer architecture",
+            "Software",
+            "Security"
+        ],
+        "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ISIE45552.2021.9576256/",
+        "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ISIE45552.2021.9576256/index.json"
+    },
+    {
+        "title": "A Novel FPGA Architecture of Commentz-Walter Algorithm using Bit-Split String-Matching Engines",
+        "venue": "2021 21st International Conference on Advances in ICT for Emerging Regions (ICter)",
+        "year": "2021",
+        "abstract": "This paper describes a reconfigurable hardware implementation of CommentzWalter algorithm with bit-split string matching engines to match multiple protein sequences. It is reported that multiple pattern matching using the most widely used Aho-Corasick algorithm for different applications has been carried out on graphics processing units and field programmable gate arrays to accelerate the matching process. Commentz-Walter algorithm, is a multiple pattern matching algorithm and more complex than Aho-Corasick. There are no reports of it being directly implemented in any hardware platform except as software implementations on general purpose processors. In this work, a specific architecture for our target application using CommentzWalter algorithm has been developed and tested with a simulator for hardware description languages. This architecture can match multiple patterns of proteins efficiently when implemented on a Field Programmable Gate Array. Finally, we compare a previously developed hardware architecture of bit-split Aho-Corasick with our bit-split Commentz-Walter architecture. Using the Intel Stratix IV GX EP4SGX230KF40C2 FPGA chip as the target device, the compilation results with Quartus II show that the synthesis logic utilization is 5% with 2203 total number of registers, 64896 FPGA block memory bits and 4 DSP block 18-bit elements. The simulation and practical experimental results show that the proposed architecture can effectively improve the performance of the Commentz-Walter algorithm.",
+        "authors": [
+            "Sugandima M. Vidanagamachchi",
+            "Shirley D. Dewasurendra"
+        ],
+        "author_info": [
+            {
+                "name": "Sugandima M. Vidanagamachchi",
+                "profile": "#",
+                "type": "OUTSIDER",
+                "id": "",
+                "email": "",
+                "profile_image": "#",
+                "profile_url": "#"
+            },
+            {
+                "name": "Shirley D. Dewasurendra",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/shirley-dewasurendra/",
+                "type": "STAFF",
+                "id": "dewasuren",
+                "email": "dewasuren@gmail.com",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/shirley-dewasurendra.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/shirley-dewasurendra/"
+            }
+        ],
+        "doi": "https://doi.org/10.1109/ICter53630.2021.9774805",
+        "is_dept_affiliated": true,
+        "preprint": "#",
+        "pdf": "#",
+        "presentation": "#",
+        "project": "#",
+        "codebase": "#",
+        "researchgroups": [],
+        "funding": "",
+        "tags": [
+            "Proteins",
+            "Software algorithms",
+            "Computer architecture",
+            "Logic gates",
+            "Hardware",
+            "Software",
+            "Registers"
+        ],
+        "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICter53630.2021.9774805/",
+        "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICter53630.2021.9774805/index.json"
+    },
+    {
+        "title": "Heterogeneous processor pipeline for a product cipher application",
+        "venue": "2011 6th International Conference on Industrial and Information Systems",
+        "year": "2011",
+        "abstract": "Processing data received as a stream is a task commonly performed by modern embedded devices, in a wide range of applications such as multimedia (encoding/decoding/ playing media), networking (switching and routing), digital security, scientific data processing, etc. Such processing normally tends to be calculation intensive and therefore requiring significant processing power. Therefore, hardware acceleration methods to increase the performance of such applications constitute an important area of study. In this paper, we present an evaluation of one such method to process streaming data, namely multi-processor pipeline architecture. The hardware is based on a Multiple-Processor System on Chip (MPSoC), using a data encryption algorithm as a case study. The algorithm is partitioned on a coarse grained level and mapped on to an MPSoC with five processor cores in a pipeline, using specifically configured Xtensa LX3 cores. The system is then selectively optimized by strengthening and pruning the resources of each processor core. The optimized system is evaluated and compared against an optimal single-processor System on Chip (SoC) for the same application. The multiple-processor pipeline system for data encryption algorithms used was observed to provide significant speed ups, up to 4.45 times that of the single-processor system, which is close to the ideal speed up from a five-stage pipeline.",
+        "authors": [
+            "Isuru B. Nawinne",
+            "Mahanama S. Wickramasinghe",
+            "Roshan G. Ragel",
+            "Swarnalatha Radhakrishnan"
+        ],
+        "author_info": [
+            {
+                "name": "Isuru B. Nawinne",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/",
+                "type": "STAFF",
+                "id": "isurunawinne",
+                "email": "isurunawinne@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/isuru-nawinne.png",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/isuru-nawinne/"
+            },
+            {
+                "name": "Mahanama S. Wickramasinghe",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/",
+                "type": "STAFF",
+                "id": "mahanamaw",
+                "email": "mahanamaw@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/mahanama-wickramasinghe.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/mahanama-wickramasinghe/"
+            },
+            {
+                "name": "Roshan G. Ragel",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "type": "STAFF",
+                "id": "roshanr",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/"
+            },
+            {
+                "name": "Swarnalatha Radhakrishnan",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/swarnalatha-radhakrishnan/",
+                "type": "STAFF",
+                "id": "swarnar",
+                "email": "swarnar@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/swarnalatha-radhakrishnan.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/swarnalatha-radhakrishnan/"
+            }
+        ],
+        "doi": "https://doi.org/10.1109/ICIINFS.2011.6038036",
+        "is_dept_affiliated": true,
+        "preprint": "https://arxiv.org/ftp/arxiv/papers/1403/1403.7299.pdf",
+        "pdf": "#",
+        "presentation": "#",
+        "project": "#",
+        "codebase": "#",
+        "researchgroups": [],
+        "funding": "",
+        "tags": [
+            "Pipelines",
+            "Encryption",
+            "Algorithm design and analysis",
+            "Partitioning algorithms",
+            "Streaming media",
+            "Computer architecture"
+        ],
+        "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICIINFS.2011.6038036/",
+        "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICIINFS.2011.6038036/index.json"
+    },
+    {
+        "title": "Microservice Based Edge Computing Architecture for Internet of Things",
+        "venue": "2022 2nd International Conference on Advanced Research in Computing (ICARC)",
+        "year": "2022",
+        "abstract": "Distributed computation and AI processing at the edge has been identified as an efficient solution to deliver real-time IoT services and applications compared to cloud-based paradigms. These solutions are expected to support the delay-sensitive IoT applications, autonomic decision making, and smart service creation at the edge in comparison to traditional IoT solutions. However, existing solutions have limitations concerning distributed and simultaneous resource management for AI computation and data processing at the edge; concurrent and real-time application execution; and platform-independent deployment. Hence, first, we propose a novel three-layer architecture that facilitates the above service requirements. Then we have developed a novel platform and relevant modules with integrated AI processing and edge computer paradigms considering issues related to scalability, heterogeneity, security, and interoperability of IoT services. Further, each component is designed to handle the control signals, data flows, microservice orchestration, and resource composition to match with the IoT application requirements. Finally, the effectiveness of the proposed platform is tested and have been verified.",
+        "authors": [
+            "Sewwandi Nisansala",
+            "Gayal Laksara Chandrasiri",
+            "Sonali Prasadika",
+            "Upul Jayasinghe"
+        ],
+        "author_info": [
+            {
+                "name": "Sewwandi Nisansala",
+                "profile": "https://people.ce.pdn.ac.lk/students/e15/243/",
+                "type": "STUDENT",
+                "id": "E/15/243",
+                "email": "e15243@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15243.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/243/"
+            },
+            {
+                "name": "Gayal Laksara Chandrasiri",
+                "profile": "https://people.ce.pdn.ac.lk/students/e15/048/",
+                "type": "STUDENT",
+                "id": "E/15/048",
+                "email": "e15048@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15048.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/048/"
+            },
+            {
+                "name": "Sonali Prasadika",
+                "profile": "https://people.ce.pdn.ac.lk/students/e15/271/",
+                "type": "STUDENT",
+                "id": "E/15/271",
+                "email": "e15271@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15271.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/271/"
+            },
+            {
+                "name": "Upul Jayasinghe",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/upul/",
+                "type": "STAFF",
+                "id": "upuljm",
+                "email": "upuljm@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/upul/"
+            }
+        ],
+        "doi": "https://doi.org/10.1109/ICARC54489.2022.9753930",
+        "is_dept_affiliated": true,
+        "preprint": "#",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/9753930",
+        "presentation": "#",
+        "project": "https://projects.ce.pdn.ac.lk/4yp/e15/Microservice-Based-Edge-Computing-Architecture/",
+        "codebase": "https://github.com/cepdnaclk/e15-4yp-Microservice-Based-Edge-Computing-Architecture",
+        "researchgroups": [],
+        "funding": "",
+        "tags": [
+            "Cloud computing",
+            "Architecture",
+            "Scalability",
+            "Microservice architectures",
+            "Computer architecture",
+            "Real-time systems",
+            "Internet of Things"
+        ],
+        "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/ICARC54489.2022.9753930/",
+        "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/ICARC54489.2022.9753930/index.json"
+    },
+    {
+        "title": "Control channel denial-of-service attack in SDN-based networks",
+        "venue": "2020 Moratuwa Engineering Research Conference (MERCon)",
+        "year": "2020",
+        "abstract": "Software-Defined Networking (SDN) is an architectural approach that fulfils the requirement of high bandwidth and the dynamic nature of current applications. One of the key features of the SDN architecture is the separation of the control logic from data plane devices. This key feature introduces a new type of control traffic in the SDN architecture, which opens the space for new vulnerabilities to SDN-based networks. In this paper, we first present an attack model to exploit the control channel of the SDN architecture. We then experimentally evaluate the impact of the attack on the end-users of the SDN-based network using our physical experimental testbed. Our experimental results clearly show that the control channel DoS attack has a major impact on the end-users of the SDN-based networks.",
+        "authors": [
+            "Shriparen Sriskandarajah",
+            "Matthew McKague",
+            "Ernest Foo",
+            "Roshan G. Ragel",
+            "Suneth Namal Karunarathna"
+        ],
+        "author_info": [
+            {
+                "name": "Shriparen Sriskandarajah",
+                "profile": "#",
+                "type": "OUTSIDER",
+                "id": "",
+                "email": "",
+                "profile_image": "#",
+                "profile_url": "#"
+            },
+            {
+                "name": "Matthew McKague",
+                "profile": "#",
+                "type": "OUTSIDER",
+                "id": "",
+                "email": "",
+                "profile_image": "#",
+                "profile_url": "#"
+            },
+            {
+                "name": "Ernest Foo",
+                "profile": "#",
+                "type": "OUTSIDER",
+                "id": "",
+                "email": "",
+                "profile_image": "#",
+                "profile_url": "#"
+            },
+            {
+                "name": "Roshan G. Ragel",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+                "type": "STAFF",
+                "id": "roshanr",
+                "email": "roshanr@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/"
+            },
+            {
+                "name": "Suneth Namal Karunarathna",
+                "profile": "https://people.ce.pdn.ac.lk/staff/academic/suneth-namal-karunarathna/",
+                "type": "STAFF",
+                "id": "namal",
+                "email": "namal@eng.pdn.ac.lk",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/suneth-namal-karunarathna.png",
+                "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/suneth-namal-karunarathna/"
+            }
+        ],
+        "doi": "https://doi.org/10.1109/MERCon50084.2020.9185266",
+        "is_dept_affiliated": true,
+        "preprint": "#",
+        "pdf": "#",
+        "presentation": "#",
+        "project": "#",
+        "codebase": "#",
+        "researchgroups": [],
+        "funding": "",
+        "tags": [
+            "Switches",
+            "Computer architecture",
+            "Denial-of-service attack",
+            "Workstations",
+            "Measurement",
+            "Servers"
+        ],
+        "api_url": "https://api.ce.pdn.ac.lk/publications/v1/10.1109/MERCon50084.2020.9185266/",
+        "edit_url": "https://github.com/cepdnaclk/api.ce.pdn.ac.lk/blob/main/publications/v1/10.1109/MERCon50084.2020.9185266/index.json"
+    }
+]

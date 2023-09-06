@@ -8,7 +8,11 @@ class ExtaractFromTags:
         results = []
 
         for i in self.tags:
-            for j in response[i]:
-                if j not in results: results.append(j)
+            try :
+                for j in response[i]:
+                    if j not in results: results.append(j)
+            except :
+                print("Tag Error")
+                continue
 
         return results
